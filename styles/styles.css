@@ -17,7 +17,7 @@ img{
     height:auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray 0;
+    box-shadow: 0 0 30px gray ;
 }
 p{
     padding: 10px;
@@ -27,10 +27,10 @@ main{max-width: 840px;
 aside{
     width:auto;
     margin:2rem;
-    border: 2px solid rgna (1, 2, 1.2);/*1*/
+    border: 2px solid rgb (0, 0, 0/0.2);/*1*/
     padding:1rem;
-    background-color:black;
-    color:#8d1515;
+    background-color:blac#eee;
+    color:#333;
     text-align: center;
 }
 aside img{
