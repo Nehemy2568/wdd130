@@ -1,6 +1,6 @@
 nav{
     background-color:darkblue;
-    padding: 10px;
+    padding:10px;
 }
 
 nav a {
@@ -26,10 +26,10 @@ main {max-width:840px;
 aside{
     width:auto;
     margin:2rem;
-    border: 2px solid rgb(0, 0, 0/0.2);
+    border: 2px solid rgna (0, 0, 0.2);/*1*/
     padding:1rem;
-    background-color:blue;
-    color:#333;
+    background-color:#af0d0d;
+    color:#221b1b;
     text-align: center;
 }
 aside img{
