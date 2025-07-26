@@ -16,7 +16,7 @@ img{
     height:auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px gray 0;
 }
 p{
     padding: 10px;
@@ -26,9 +26,9 @@ main {max-width:840px;
 aside{
     width:auto;
     margin:2rem;
-    border: 2px solid rgna (0, 0, 0.2);/*1*/
+    border: 2px solid rgna (1, 2, 1.2);/*1*/
     padding:1rem;
-    background-color:#af0d0d;
+    background-color:#eee rgb(255, 250, 253, 1);
     color:#221b1b;
     text-align: center;
 }
