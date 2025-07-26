@@ -27,7 +27,7 @@ main{max-width: 840px;
 aside{
     width:auto;
     margin:2rem;
-    border:2px solid rgb (0 0 0/0.2);/*1*/
+    border:2px solid;
     padding:1rem;
     background-color:#eee;
     color:aqua;
