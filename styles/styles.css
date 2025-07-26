@@ -1,5 +1,4 @@
-main{max-width: 840px;
-}
+
 nav{
     background-color:darkblue;
     padding:10px;
@@ -23,7 +22,8 @@ img{
 p{
     padding: 10px;
 }
-
+main{max-width: 840px;
+}
 aside{
     width:auto;
     margin:2rem;
@@ -41,6 +41,7 @@ main img {
     width:150px;
     height:auto;
 }
+
 p{
     padding:0;
 }
