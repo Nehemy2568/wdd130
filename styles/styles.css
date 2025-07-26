@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
 :root{
     --heading-background-color:darkblue;
     --border:--1px solid black;
@@ -31,12 +37,12 @@ p{
 main{max-width: 840px;
 }
 aside{
-    width:auto;
+    width:20em;
     margin:2rem;
     border:var(--border);
-    padding:1rem;
+    padding:2rem;
     background-color:burlywood;
-    color:aqua;
+    color:rgb(177, 25, 152);
     text-align:center;
 }
 aside img{
@@ -46,6 +52,7 @@ aside img{
 main img {
     width:150px;
     height:auto;
+    float:right;
 }
 
 p{
@@ -56,4 +63,15 @@ footer {
     border-top:1px solid rgb(207, 64, 64);
     text-align:center;
 }
-/*cccc*/
+/* Class selector */
+.box{
+    margin:1 rem;
+    border:1 px solid rgb(49, 19, 19);
+    padding: 1 rem;
+    background: colore #123;
+}
+aside h2{
+    position:absolute;
+    top: 200px;
+    left:150px;
+}
