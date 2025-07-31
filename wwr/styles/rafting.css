@@ -34,15 +34,19 @@ nav,p,section,article{
 .socialmedia a{
     text-decoration: none;
 }
-.hero{
-    position:relative;
-}
+
+
 .hero img{
     display:block;
     width:100%;
     height:auto;
+    position:relative
 }
-h1{
+.hero{
+    position:relative
+}
+
+.hero h1{
     position:absolute;
     top:20px;
     width:100%;
