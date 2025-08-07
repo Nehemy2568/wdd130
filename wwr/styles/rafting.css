@@ -60,3 +60,75 @@ nav,p,section,article{
     float:right;
     width:125px;
 }
+header{
+    display: grid;
+    display:flex;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    justify-content: space-between
+   
+}
+header img{
+    width:150px;
+    height:auto;
+    border: var(--accent2-color);
+    padding: 2px;
+    box-shadow: 0 0 30px gray ;
+}
+section h2 {
+    border: 1px solid rgb(0 0 0/10%);
+    border: var(--accent2-color);
+    padding:5px;
+    background-color:var(--primary-color);
+}   
+section  p{
+    border:1px solid rgba(9, 9, 9, 0.1);
+    background-color:beige;
+    
+}
+.hero article{
+    border:1px solid rgba(9, 9, 9, 0.1) ;
+    background-color:beige ;
+}
+
+figure {
+  border: thin silver solid;
+  display: flex;
+  flex-flow:row;
+  align-items:flex-start;
+  padding: 5px;
+  max-width: 220px;
+  margin:0;
+}
+
+section img{
+  max-width: 220px;
+  max-height: 150px;
+}
+
+
+figcaption {
+  display: grid;
+  background-color: #222;
+  color: white;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+.socialmedia{
+  display: flex;
+  border: thin silver solid;
+  display: grid;
+  display: flex;
+  grid-row: 4;
+  align-items:flex-start;
+  padding: 5px;
+  max-width: 450px;
+  margin:0;
+}
+footer img{
+  max-width: 220px;
+  max-height: 150px;
+
+}
